@@ -1,7 +1,7 @@
 <?php
 require 'vendor/autoload.php';
 try {
-    # Change 'localhost' to your domain name.
+    # Change 'localhost:8080' to your domain name.
     $openid = new LightOpenID('localhost:8080');
     if(!$openid->mode) {
         if(isset($_POST['openid_identifier'])) {
@@ -14,7 +14,15 @@ try {
         }
 ?>
 <form action="" method="post">
+    <!--
+    test gnuhub.pip.verisignlabs.com
+    OpenID: <input type="hidden" name="openid_identifier" value="gnuhub.pip.verisignlabs.com" /> <button>Submit</button>
+    test ibm openid
+    OpenID: <input type="hidden" name="openid_identifier" value="https://w3-wisit.toronto.ca.ibm.com/FIM/openidsso" /> <button>Submit</button>
+    input openid_identifier
     OpenID: <input type="text" name="openid_identifier" /> <button>Submit</button>
+    -->
+    OpenID: <input type="hidden" name="openid_identifier" value="gnuhub.pip.verisignlabs.com" /> <button>Submit</button>
 </form>
 <?php
     } elseif($openid->mode == 'cancel') {
