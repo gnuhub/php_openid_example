@@ -48,7 +48,7 @@ try {
     input openid_identifier
     OpenID: <input type="text" name="openid_identifier" /> <button>Submit</button>
     -->
-    <input type="hidden" name="openid_identifier" value="https://w3-wisit.toronto.ca.ibm.com/FIM/openidsso" /> <button>Login with OpenID</button>
+    <input type="hidden" name="openid_identifier" value="gnuhub.pip.verisignlabs.com" /> <button>Login with OpenID</button>
 </form>
 <?php
     } elseif($openid->mode == 'cancel') {
