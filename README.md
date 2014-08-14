@@ -51,3 +51,14 @@ $openid = new LightOpenID('localhost:8080');
 ```
 * That's all,Done
 
+![snip20140814_1](https://cloud.githubusercontent.com/assets/1329093/3915628/d5af8614-2363-11e4-865c-29e88f344cba.png)
+
+![snip20140814_2](https://cloud.githubusercontent.com/assets/1329093/3915632/e4b2b46a-2363-11e4-9ab6-307846491f41.png)
+
+more
+============
+```
+debug this example and lightopenid
+read the book Get Ready for OpenID
+read openid  Specifications
+```
